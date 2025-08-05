@@ -58,6 +58,11 @@ io.questdb.griffin.engine.functions.eq.EqIPv4StrFunctionFactory
 io.questdb.griffin.engine.functions.eq.EqLongFunctionFactory
 io.questdb.griffin.engine.functions.eq.EqLongCharFunctionFactory
 io.questdb.griffin.engine.functions.eq.EqLong128FunctionFactory
+io.questdb.griffin.engine.functions.neq.NotEqLong128FunctionFactory
+io.questdb.griffin.engine.functions.lt.LtLong128FunctionFactory
+io.questdb.griffin.engine.functions.gt.GtLong128FunctionFactory
+io.questdb.griffin.engine.functions.le.LeLong128FunctionFactory
+io.questdb.griffin.engine.functions.ge.GeLong128FunctionFactory
 io.questdb.griffin.engine.functions.eq.EqDoubleFunctionFactory
 io.questdb.griffin.engine.functions.eq.EqLong256StrFunctionFactory
 io.questdb.griffin.engine.functions.eq.EqLong256FunctionFactory
@@ -122,6 +127,7 @@ io.questdb.griffin.engine.functions.math.AddLongFunctionFactory
 io.questdb.griffin.engine.functions.math.AddFloatFunctionFactory
 io.questdb.griffin.engine.functions.math.AddDoubleFunctionFactory
 io.questdb.griffin.engine.functions.date.AddLongToTimestampFunctionFactory
+io.questdb.griffin.engine.functions.math.AddLong128FunctionFactory
 io.questdb.griffin.engine.functions.math.AddLong256FunctionFactory
 
 # '-' operator
@@ -134,6 +140,7 @@ io.questdb.griffin.engine.functions.math.NegByteFunctionFactory
 io.questdb.griffin.engine.functions.math.SubDoubleFunctionFactory
 io.questdb.griffin.engine.functions.math.SubIntFunctionFactory
 io.questdb.griffin.engine.functions.math.SubLongFunctionFactory
+io.questdb.griffin.engine.functions.math.SubLong128FunctionFactory
 io.questdb.griffin.engine.functions.math.SubTimestampFunctionFactory
 
 # '/' operator
@@ -238,6 +245,7 @@ io.questdb.griffin.engine.functions.rnd.RndBinCCCFunctionFactory
 io.questdb.griffin.engine.functions.rnd.RndSymbolListFunctionFactory
 io.questdb.griffin.engine.functions.rnd.RndStringListFunctionFactory
 io.questdb.griffin.engine.functions.rnd.RndCharFunctionFactory
+io.questdb.griffin.engine.functions.rnd.RndLong128FunctionFactory
 io.questdb.griffin.engine.functions.rnd.RndLong256FunctionFactory
 io.questdb.griffin.engine.functions.rnd.RndLong256NFunctionFactory
 io.questdb.griffin.engine.functions.rnd.RndByteFunctionFactory
